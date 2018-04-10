@@ -1,0 +1,713 @@
+.common-home{
+    background:url('../images/wallpaper.jpg'); 
+    background-repeat: no-repeat;    
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+@font-face {
+	font-family: "UTM Alter Gothic"; 
+	src: url('../fonts/UTM Alter Gothic.ttf'); 
+}
+
+html,body{
+	height: 100%;
+}
+
+h4.page-header{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	padding-left: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 22px;	
+}
+
+.page-header-2{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	padding-left: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 22px;
+}
+
+.page-header-3{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	padding: 15px 15px 15px 15px;
+	margin-top: 40px;
+	margin-left: -25px; 
+	margin-right: -15px;	
+}
+
+.page-header-4{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	padding: 5px 5px 5px 5px;
+	margin-top: 40px;
+}
+
+.page-header-5{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	padding: 6px 6px 6px 6px;
+	margin-top: 40px;	
+	margin-left: -1px;
+}
+
+.page-header-6{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	padding: 5px 5px 5px 5px;
+	margin-top: -40px;	
+}
+
+.page-header-7{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	padding: 6px 6px 6px 6px;
+	margin-top: -40px;
+	margin-left: -1px;	
+}
+
+h4.page-header-contact{
+	color: white;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 24px;	
+}
+
+.thumb {
+    margin-bottom: 30px;
+    font-family: UTM Alter Gothic, sans-serif;
+}
+
+.thumb-2{
+	margin-left: -5px;
+}
+
+.bolder{	
+	font-size: 24px;
+	font-family: UTM Alter Gothic, sans-serif;
+	font-style: normal;
+}
+
+.italic{
+	
+	font-style: italic;
+	font-family: UTM Alter Gothic, sans-serif;
+	font-size: 16px;
+}
+
+.navbar.navbar-inverse{
+	font-family: UTM Alter Gothic, sans-serif;
+	font-size: 24px;
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	border-radius: 0px;
+	border-color: #4d0000;
+}
+
+
+.list-social-icons{
+	margin-top: 11px;
+}
+
+.fa-rss{
+	border-radius: 0px;
+	border-top: solid; 
+	border-bottom: solid; 
+	border-left: solid; 
+	border-right: solid; 
+	background-color: #f4bb47; 
+	color: white; 
+	border-color: transparent; 
+	padding: 9px 8px 9px 8px ;
+	margin-left: -13px;
+}
+
+.fa-twitter{
+	border-radius: 0px;
+	border-top: solid; 
+	border-bottom: solid; 
+	border-left: solid; 
+	border-right: solid; 
+	background-color: #51b1e1; 
+	color: white; 
+	border-color: transparent; 
+	padding: 9px 8px 9px 8px ;
+	margin-left: -11px;	
+}
+
+.fa-youtube{
+	border-radius: 0px;
+	border-top: solid; 
+	border-bottom: solid; 
+	border-left: solid; 
+	border-right: solid; 
+	background-color: #e10137; 
+	color: white; 
+	border-color: transparent; 
+	padding: 9px 8px 9px 8px ;
+	margin-left: -10px;
+}
+
+.fa-facebook{
+	border-radius: 0px;
+	border-top: solid; 
+	border-bottom: solid; 
+	border-left: solid; 
+	border-right: solid; 
+	background-color: #3d5a9c; 
+	color: white; 
+	border-color: transparent; 
+	padding: 9px 10px 9px 10px ;
+	margin-left: -11px;
+}
+
+.fa-facebook-square{
+	color: #3d5a9c;
+	margin-left: -10px;
+}
+
+.fa-twitter-square{
+	color: #00aced;
+	margin-left: -10px;
+}
+
+.fa-linkedin-square{
+	color: #007bb6;
+	margin-left: -10px;
+}
+
+.fa-pinterest-square{
+	color: #c72122;
+	margin-left: -10px;
+}
+
+.fa-google-plus-square{
+	color: #c72122;
+	margin-left: -10px;
+}
+
+.list-group{
+	margin-top: -10px;
+}
+
+.effect{
+	position: relative;
+}
+
+
+/* box shadow*/
+.effect:before, .effect:after{
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	box-shadow: 0 15px 10px #777;
+	transform: rotate( -3deg);
+}
+
+.effect:after{
+	transform: rotate(3deg);
+	right: 10px;
+	left: auto;
+}
+/* box shadow*/
+
+.carousel-1{	
+	padding-left: -100px;
+}
+
+.pagination ul{
+	display: inline-block;
+  	padding: 0;
+ 	margin: 0;
+}
+
+.pagination li {
+  display: inline;  
+}
+
+.pagination li a {
+  color: #2f363e !important;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 5px; 
+  margin-right: 5px;
+  background-color: white;
+  border-color: #979797 !important;
+  border-width: 0.5px !important;
+  border-radius: 0px !important;
+}
+
+.pagination li.active a {
+  background-color: #2f363e;
+  color: white !important;
+}
+
+.pagination li:hover:not(.active) a {
+  background-color: #ddd;
+}
+
+/*
+/* list item slide
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+list item slide*/
+
+div.relative{
+	position: relative; 
+	margin-left: -20px;
+}
+
+div.help{
+	background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	font-family: UTM Alter Gothic, sans-serif;
+	
+}
+
+div.border{
+	border-style: dashed;
+	padding: 10px 0 15px 15px;
+	color: #ff0000;
+	border-width: 1px;
+}
+
+div.border.button{
+	padding: 14px 40px;
+	font-size: 40px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+div.sale{
+	color: white;    
+    background-image: url('../images/menu-background.jpg');
+    background-repeat: repeat;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: -10px;
+    padding-bottom: 1px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+div.box-info{
+	margin-top: 20px; 
+	margin-bottom: 15px;
+	border-top-style: solid; 
+	border-color: #e52f2f; 
+	border-bottom-style: none; 
+	border-left-style: none; 
+	border-right-style: none; 
+	background-color: #f6f1f1;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+div.box-contact{
+	margin-top: 25px; 
+	background-color: #f6f1f1;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+a.menu:hover {
+    text-decoration: underline !important;
+    background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	color: white !important;
+}
+
+a.menu-1:hover {
+    text-decoration: underline !important;
+    background-image: url('../images/menu-background.jpg');
+	background-repeat: repeat;
+	color: white !important;
+}
+
+button.btn-danger{
+	font-size: 18px;
+	background-color: #e52f2f;
+	margin-left: -8px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	border-radius: 0px;
+}
+
+.owl-carousel-cus .owl-theme .owl-nav{
+	position: relative;
+	bottom: 225px;
+}
+
+.owl-carousel-cus .owl-theme .owl-nav .owl-prev{
+	position: relative;
+	right: 50%;
+	background-color: white;
+	color: #b3b3b3;
+	border-style: solid;
+	border-color: #d9d9d9;
+	border-width: 1px;
+	padding: 10px 15px 10px 15px;
+	margin-right: 5px;
+	border-radius: 0px;
+}
+
+.owl-carousel-cus .owl-theme .owl-nav .owl-next{
+	position: relative;
+	left: 50%;
+	background-color: white;
+	color: #b3b3b3;
+	border-style: solid;
+	border-color: #d9d9d9;
+	border-width: 1px;
+	padding: 10px 15px 10px 15px;
+	margin-left: 5px;
+	border-radius: 0px;
+}
+
+.owl-carousel-cus{
+	margin-top: 15px;
+	margin-left: 27px;
+	border-radius: 0px;
+}
+
+
+p{
+	font-size: 18px;
+	color: white;	
+}
+
+div.footer{
+	margin-top: 10px;
+}
+
+button.send{
+	background-color: #252525; 
+	color: white; 
+	border-radius: 0px; 
+	border-bottom: none; 
+	border-top: none; 
+	border-left: none;
+	border-right: none;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 19px;	
+	padding: 4px 20px 4px 20px;
+	margin-top: 0px;
+}
+
+a.details{
+	padding: 5px 25px 5px 25px; 
+	background-color: white; 
+	color: #981d28; 
+	border-top-style: solid; 
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-style: none ;
+	border-color: #981d28; 
+	border-radius: 0px; 
+	border-width: 2px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 18px;
+}
+
+div.form-action{
+	margin: 0; text-align: center;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+h4.name-font{
+	font-weight: bold; font-size: 18px;
+	font-family: UTM Alter Gothic, sans-serif;
+}
+
+h5.description-font{
+	font-size: 16px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	color: grey !important;
+	font-weight: lighter;
+}
+
+a.main{
+	padding: 5px 25px 5px 25px; 
+	background-color: #981d28; 
+	color: white; 
+	border-radius: 0px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 18px;
+	border-color: #981d28;
+}
+
+a.main:hover{
+	background-color: #981d28 !important; 
+	color: white !important;
+	border-color: #981d28 !important;
+}
+
+a.details:hover{
+	background-color: #981d28 !important; 
+	color: white !important;
+	border-color: #981d28 !important;
+}
+
+p.navbar-text{
+	color: white;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	margin-top: 8px;
+}
+
+div.information{
+	background-color: #f6f1f1; 
+	margin-right: 15px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+div.footerdetail{
+	border-color: #fd7a7a; 
+	border-top-style: solid;  
+	border-width: 1px; 
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-style: italic;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+input.square{
+	border-radius: 0px;
+	font-size: 18px;
+}
+
+a.menu{
+	color: white;
+	text-decoration: underline; 
+}
+
+a.menu-1{
+	color: white;
+}
+
+div.carousel-slide{
+	margin-top: -10px;
+}
+
+h5.info-color{
+	font-weight: normal; 
+	color: #e52f2f;
+	font-size: 20px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+h6.line{
+	line-height: 2;
+	font-size: 17px;
+	font-style: lighter;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+h5.tel{
+	font-style: italic; 
+	color: black; 
+	font-weight: bold;
+}
+
+h4.contact{
+	color: #e52f2f;
+}
+
+h3.telephone{
+	text-align: right;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	color: #59392c;
+}
+
+h3.telephone-1{
+	text-align: right;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	margin-top: -5px;
+	color: #59392c;
+}
+
+
+p.header-text-1{
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 25px;
+	margin-top: 11px;
+}
+
+a.header-link{
+	color: white; 
+	font-size: 16px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+}
+
+h4.watch-all{
+	font-size: 16px; 
+	text-align: right;
+}
+
+h4.footer{
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 17px;
+	font-style: italic;
+}
+
+h5.watch-all{
+	font-size: 15px;
+	text-align: right;
+	margin-bottom: 11px;
+}
+
+i.arrows{
+	font-size: 18px;
+	color: #cf281f;
+}
+
+p.contact{
+	color: black;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-weight: lighter;
+}
+
+h3.contactus{
+	font-family: 'UTM Alter Gothic', sans-serif;	
+	font-size: 35px;
+}
+
+label{
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 22px;	
+}
+
+input.form-control-1{
+	width: 95%;
+	margin-left: 0px;
+	margin-right: 30px;
+	border-radius: 0px;
+}
+
+textarea.form-control-1{
+	width: 95%;
+	margin-left: 0px;
+	margin-right: 30px;
+	border-radius: 0px;	
+}
+
+button.btn-primary{
+	font-size: 20px;
+	font-family: 'UTM Alter Gothic', sans-serif;
+	border-radius: 0px;
+}
+
+form.form-contact{
+	margin-left: 10px;
+}
+
+div.container-contact{
+	margin-bottom: 50px;
+}
+
+div.page-contact{
+	margin-top: 30px;
+}
+
+div.row-contact{
+	margin-top: 25px;
+}
+
+h4.recruitment{
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h5.recruitment-detail{
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 20px;
+}
+
+h3.contactus-1{
+	font-family: 'UTM Alter Gothic', sans-serif;	
+	font-size: 35px;
+	color: blue;
+}
+
+h4.head-size{
+	font-family: 'UTM Alter Gothic', sans-serif;
+	font-size: 22px;
+}
+
+.container-logo{
+	margin-bottom: 10px;
+}
